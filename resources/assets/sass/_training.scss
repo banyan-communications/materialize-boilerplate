@@ -1,0 +1,30 @@
+.ban-training {
+	height: 100vh;
+
+	.ban-training-content {
+		.col {
+			border: 1px solid $light-grey;
+			padding: 15px;
+		}
+	}
+
+	.ban-training-nav{
+		li:hover {
+			background-color: $light-grey !important;
+			cursor: pointer;
+		}
+
+		.ban-training-section {
+			li {
+				background-color: #4db6ac;
+				padding: 15px;
+			}
+		}
+
+		.ban-training-lesson {
+			li {
+				background-color: transparent;
+			}
+		}
+	}
+}

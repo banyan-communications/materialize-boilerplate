@@ -1,0 +1,25 @@
+
+// Brands
+$dark-grey: #414343;
+$light-grey: #f2f2f2;
+
+
+// Typography
+$font-size-base: 14px;
+$text-color: #414343;
+
+
+// Styles
+body, p {
+	color: $text-color;
+    font-size: $font-size-base;
+}
+
+.container {
+    width: 90% !important;
+}
+
+.equal-height {
+  display: flex;
+  flex-wrap: wrap;
+}
