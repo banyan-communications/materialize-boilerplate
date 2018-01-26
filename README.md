@@ -8,3 +8,4 @@ Boilerplate template for training applications in Laravel using Materialize.
 ### Training Page
 ![alt text](https://github.com/banyan-communications/materialize-boilerplate/blob/master/public/img/training.png "Training Page")
 
+Materialize Documentation: http://materializecss.com
