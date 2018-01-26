@@ -17,7 +17,7 @@ p {
 }
 
 .ban-welcome {
-  height: 100vh;
+  min-height: 80vh;
 }
 
 .ban-training {
@@ -35,12 +35,20 @@ p {
 }
 
 .ban-training .ban-training-nav .ban-training-section li {
-  background-color: #4db6ac;
+  background-color: #bdbdbd;
   padding: 15px;
 }
 
 .ban-training .ban-training-nav .ban-training-lesson li {
   background-color: transparent;
+}
+
+nav {
+  background-color: #bdbdbd !important;
+}
+
+.page-footer {
+  background-color: #bdbdbd !important;
 }
 
 .materialize-red {
