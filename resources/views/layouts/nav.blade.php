@@ -5,7 +5,7 @@
 	  <ul id="nav-mobile" class="right hide-on-med-and-down">
 	    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
 	    <li class="nav-item"><a class="nav-link" href="/training">Training</a></li>
-	    <li class="nav-item"><a class="nav-link" href="//aylinmarie.co" target="_blank">aylinmarie.co</a></li>
+	    <li class="nav-item"><a class="nav-link" href="//banyancom.com" target="_blank">BYN</a></li>
 	  </ul>
 	</div>
 </nav>
