@@ -32,7 +32,13 @@
             {{-- Training Area  --}}
             <div class="col m9 s12">
                 {{-- Training Content --}}
-                @yield ('lesson-content')
+                <h5>Lesson Example</h5>
+
+                <iframe src="https://player.vimeo.com/video/116009930" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                {{-- Use when individual lessons have been created --}}
+                {{-- @yield ('lesson-content')  --}}
+
                 <div class="right-align">
                     <button class="btn">Next</button>
                 </div>
