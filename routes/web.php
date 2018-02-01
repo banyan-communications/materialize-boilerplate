@@ -16,9 +16,4 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/training', 'TrainingController@index');
 
-Route::get('/training/{lesson}', function($id ){
-
-	$lesson = DB::table('lessons')->find($id);
-
-	return view('training.show', compact('lesson'));
-});
+Route::get('/training/{lesson}', 'TrainingController@show');
