@@ -8,9 +8,9 @@ class TrainingController extends Controller {
 
     public function index() {
 
-    	$lessons = DB::table('lesson')->get();
+    	$lessons = DB::table('lessons')->get();
 
-		return view ('training.index', compact('lessons'));
+		return view('training.index', compact('lessons'));
     }
 
     public function show() {
